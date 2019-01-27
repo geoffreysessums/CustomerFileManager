@@ -1,32 +1,42 @@
-# Project: CustomerFileManager
+# CustomerFileManager
+
+Geoffrey Sessums  
+CS 3423 Systems Programming - Fall 2017  
+Language: BASH
 
 ## Description
 
-Written in Bash, CustomerFileManager contains several scripts used to interactively manage customer accounts.
+CustomerFileManager displays a menu allowing an employee to interactively manage customer accounts.
+
+## What I learned
+
+* How to create a BASH program.
+* How to the case control statement.
+* How to read text from stdin until EOF, in BASH.
+* How to execute script files within a BASH program.
+* How to create, open, read, and write files using BASH.
+* How to use the standard Unix utility grep to search for text strings within
+  files.
+* How to export shell variables and source shell scripts so that they execute
+  as part of the current process.
 
 ## Installation
 
-Clone the repository wherever you like (e.g. `~/Projects/CustomerFileManage`):
+Clone the repository wherever you like (e.g. `~/Desktop/CustomerFileManager`):  
 
-```bash
-git clone https://github.com/gsessums/CustomerFileManager.git
-```
+`git clone https://github.com/gsessums/CustomerFileManager.git`
 
 ## Usage
 
 To execute enter the following command, then follow the on screen prompts.
 
-```bash
-./processCustomerAccount.bash
-```
+`./processCustomerAccount.bash`
 
 ### Alternatively
 
 You may use the testInput.txt file that's included:
 
-```bash
-./processCustomerAccount.bash < testInput.txt
-```
+`./processCustomerAccount.bash < testInput.txt`
 
 ## Testing
 
@@ -45,7 +55,7 @@ Author: [Geoffrey Sessums](http://www.geoffreysessums.com)
 
 MIT License
 
-Copyright (c) 2018 Geoffrey Sessums
+Copyright (c) 2017 Geoffrey Sessums
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
