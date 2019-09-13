@@ -49,7 +49,7 @@ Several files are included for testing:
 
 ## Credits
 
-Author: [Geoffrey Sessums](http://www.geoffreysessums.com)
+Author: Geoffrey Sessums
 
 ## License
 
